@@ -1,0 +1,25 @@
+You need the Java Development Kit (JDK) installed first (see the previous instructions on installing default-jdk). 
+
+    Write and Save:
+        Create a file named Hello.java. The class name must match the filename.
+        
+        public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, Ubuntu Terminal!");
+    }
+}
+
+
+Run in Terminal:
+
+    First, compile the Java source file into a class file (.class):
+    bash
+
+    javac Hello.java
+above Hello is a class name in file
+
+
+Then, run the compiled class file (note: you specify the class name, not the .class extension):
+java Hello
+
+Output: Hello, Ubuntu Terminal!
