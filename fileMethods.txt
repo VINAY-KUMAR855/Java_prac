@@ -1,0 +1,14 @@
+# file
+f.createNewFile("file.txt"); // it returns true if  it create, else return false.
+f.delete(); 
+f.exists();
+f.isHidden();
+f.canWrite() // it returns having read operation or not
+f.setWritable() // convert write operation
+# Folder creation
+f.mkdir(); // create a Folder
+f.mkdirs();// crate a multiple folders like "./vinay/varun"
+Arrays.toSting(f.list()); // check number of files in folder, print the file names with relative files
+f.getName(); 
+f.getParent(); 
+f.reNameTo("newfilename");
